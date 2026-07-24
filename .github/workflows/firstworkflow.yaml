@@ -2,7 +2,7 @@ name: First Workflow
 on: push
 jobs:
   myfirstjob:
-    runs-on: ubuntu latest
+    runs-on: ubuntu-24.04
     steps:
       - name: print the statement
         run: echo "This is my first job created to learn gha."
