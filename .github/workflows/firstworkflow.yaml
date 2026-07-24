@@ -1,1 +1,10 @@
+name: First Workflow
+on: push
+jobs:
+  myfirstjob:
+    runs-on: ubuntu latest
+    steps:
+      - name: print the statement
+        run: echo "This is my first job created to learn gha."
+      
 
